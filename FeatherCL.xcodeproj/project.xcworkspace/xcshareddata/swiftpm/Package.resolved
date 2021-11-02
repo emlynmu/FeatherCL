@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FeatherKit",
+        "repositoryURL": "git@github.com:emlynmu/FeatherKit.git",
+        "state": {
+          "branch": "main",
+          "revision": "579f88d7396586b01cbd4e9f302ac5dc18c7512f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

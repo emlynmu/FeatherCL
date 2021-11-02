@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		757B6780272E1A4100A88EFA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B677F272E1A4100A88EFA /* main.swift */; };
+		757B6788272E1AD900A88EFA /* FeatherKit in Frameworks */ = {isa = PBXBuildFile; productRef = 757B6787272E1AD900A88EFA /* FeatherKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757B6788272E1AD900A88EFA /* FeatherKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,9 @@
 			dependencies = (
 			);
 			name = FeatherCL;
+			packageProductDependencies = (
+				757B6787272E1AD900A88EFA /* FeatherKit */,
+			);
 			productName = FeatherCL;
 			productReference = 757B677C272E1A4100A88EFA /* FeatherCL */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +111,9 @@
 				Base,
 			);
 			mainGroup = 757B6773272E1A4100A88EFA;
+			packageReferences = (
+				757B6786272E1AD800A88EFA /* XCRemoteSwiftPackageReference "FeatherKit" */,
+			);
 			productRefGroup = 757B677D272E1A4100A88EFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -286,6 +294,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		757B6786272E1AD800A88EFA /* XCRemoteSwiftPackageReference "FeatherKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:emlynmu/FeatherKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		757B6787272E1AD900A88EFA /* FeatherKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 757B6786272E1AD800A88EFA /* XCRemoteSwiftPackageReference "FeatherKit" */;
+			productName = FeatherKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 757B6774272E1A4100A88EFA /* Project object */;
 }
